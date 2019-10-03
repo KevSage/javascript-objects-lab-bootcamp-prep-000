@@ -14,6 +14,6 @@ object[key] = value;
 }
 function deleteFromObjectByKey(object, key) {
   Object.assign({}, object, key)
-  delete object.key;
+  delete object[key];
   return object;
 }
