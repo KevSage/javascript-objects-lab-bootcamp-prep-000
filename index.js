@@ -13,6 +13,6 @@ object[key] = value;
   return object;
 }
 function deleteFromObjectByKey(object, key) {
-  Object.assign({}, obj, key)
+  Object.assign({}, object, key)
   delete object[key];
 }
